@@ -26,3 +26,12 @@ terraform init -backend-config=config/backend-${env}.conf
 terraform plan -var-file=config/${env}.tfvars
 terraform apply -var-file=config/${env}.tfvars
 ```
+```bash
+You can make a config/dev.tfvars file as below
+
+# Example of variables you might need to define
+aws_region     = "us-east-1"
+project_name   = "ec2-service"
+environment    = "development"
+
+```
