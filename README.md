@@ -4,7 +4,7 @@
 
 This project sets up an S3 bucket and EC2 instances using Terraform. The configuration for creating the S3 bucket is located in the s3-backend directory, and the configuration for EC2 instances is in the ec2-instance directory. The S3 bucket will be created with a unique name, and the state file for the EC2 instances will be backed up and locked securely.
 
-**Note: Please refer config.md file in /aws/s3-backend**
+**Note: Please refer CONFIG.md file in /aws/s3-backend**
 
 **Prerequisites:**
 
