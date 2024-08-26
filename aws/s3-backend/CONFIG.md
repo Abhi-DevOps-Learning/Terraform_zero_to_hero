@@ -4,10 +4,11 @@ Add this belwo to your main.tf file under terraform{}
     encrypt = true
   }
 
-# example of 'partial configuration':
-# https://www.terraform.io/docs/backends/config.html#partial-configuration
-# Create config/backend-dev.conf folder and file and add below all in to the .conf file.
-# cat config/backend-dev.conf
+**example of 'partial configuration':
+https://www.terraform.io/docs/backends/config.html#partial-configuration
+Create config/backend-dev.conf folder and file and add below all in to the .conf file.
+cat config/backend-dev.conf**
+
 bucket  = "<account_id>-terraform-states"
 key     = "development/service-name.tfstate"
 encrypt = true
