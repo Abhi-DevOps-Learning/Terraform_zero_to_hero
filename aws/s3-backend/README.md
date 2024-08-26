@@ -5,8 +5,6 @@
     dynamodb_table_name = terraform-lock
     s3_bucket_name = <account_id>-terraform-states
 
-**usage**:
-
 # make sure you are on the right aws account
 pip install awscli
 aws s3 ls
