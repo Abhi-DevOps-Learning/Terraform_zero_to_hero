@@ -20,7 +20,9 @@ Initialize Terraform:
 
 Run the following command to initialize Terraform. This command will download the necessary provider plugins.
 
-```bash **terraform init** ```
+```bash
+**terraform init**
+```
 Review the planned changes:
 
 Execute the following command to see what changes Terraform will make. This will show you a preview of the resources that will be created.
