@@ -44,6 +44,7 @@ Confirm the apply action when prompted.
 The S3 bucket will be created with a unique name as defined in the main.tf file.
 
 2.**Create EC2 Instances**
+
 Navigate to the ec2-instance directory:
 
 
@@ -78,6 +79,9 @@ Confirm the apply action when prompted.
 The EC2 instances will be created, and the state file will be stored safely and securely with the provided backend configuration path.
 
 
+**Notes:**
+
+Then add s3 backend to the main.tf file and run the terraform init, plan, apply. it will store state file to s3 bucket and lock it by DynmoDB.
 
 **Notes:**
 
