@@ -21,19 +21,23 @@ Initialize Terraform:
 Run the following command to initialize Terraform. This command will download the necessary provider plugins.
 
 ```bash
-**terraform init**
+terraform init
 ```
 Review the planned changes:
 
 Execute the following command to see what changes Terraform will make. This will show you a preview of the resources that will be created.
 
-```bash**terraform plan** ```
+```bash
+terraform plan
+```
 
 Apply the configuration:
 
 Apply the Terraform configuration to create the S3 bucket. This command will execute the planned changes and create the resources.
 
-```bash**terraform apply**```
+```bash
+terraform apply
+```
 
 Confirm the apply action when prompted.
 
@@ -48,21 +52,26 @@ Initialize Terraform with Backend Configuration:
 
 Run the following command to initialize Terraform with the backend configuration. This will take a backup of your state file and lock it.
 
-
-**terraform init -reconfigure -backend-config=../../config/backend-dev.conf**
+```bash
+terraform init -reconfigure -backend-config=../../config/backend-dev.conf
+```
 
 Review the planned changes:
 
 Execute the following command to see what changes Terraform will make. This will show you a preview of the resources that will be created.
 
-**terraform plan**
+```bash
+terraform plan
+```
 
 Apply the configuration:
 
 Apply the Terraform configuration to create the EC2 instances. This command will execute the planned changes and create the resources.
 
 
-**terraform apply**
+```bash
+terraform apply
+```
 
 Confirm the apply action when prompted.
 
