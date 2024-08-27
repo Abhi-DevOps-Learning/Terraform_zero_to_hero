@@ -12,7 +12,7 @@ Terraform installed on your machine.
 AWS CLI configured with appropriate credentials.
 Setup Instructions
 
-1.** To Create S3 Bucket**
+1.**To Create S3 Bucket**
 Navigate to the s3-backend directory:
 
 cd your_dir/aws/s3-backend
