@@ -43,7 +43,7 @@ Confirm the apply action when prompted.
 
 The S3 bucket will be created with a unique name as defined in the main.tf file.
 
-2.** Create EC2 Instances**
+2.**Create EC2 Instances**
 Navigate to the ec2-instance directory:
 
 
